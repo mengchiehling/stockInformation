@@ -1,0 +1,11 @@
+jupyter
+jupyterlab
+matplotlib
+openpyxl
+tqdm
+selenium
+webdriver-manager
+bs4
+pyyaml
+pip
+user_agent
