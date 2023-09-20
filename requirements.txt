@@ -3,9 +3,12 @@ jupyterlab
 matplotlib
 openpyxl
 tqdm
-selenium
-webdriver-manager
+selenium==4.4.0
+webdriver-manager==3.8.3
 bs4
 pyyaml
 pip
 user_agent
+lxml
+requests
+pandas
