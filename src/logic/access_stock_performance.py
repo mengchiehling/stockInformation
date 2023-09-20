@@ -108,6 +108,12 @@ def extract_values_from_table(table: etree._Element):
 
 def access_data_as_dataframe(code):
 
+    """
+    The main entrance point for all the work
+    :param code:
+    :return:
+    """
+
     dom = get_resp(code=code)
 
     table = dom.xpath('//*[@id="tblDetail"]')[0]
